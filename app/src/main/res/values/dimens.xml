@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="divider_thin">1dp</dimen>
+    <dimen name="divider">2dp</dimen>
+
+    <dimen name="margin_base_quarter">2dp</dimen>
+    <dimen name="margin_base_half">4dp</dimen>
+    <dimen name="margin_base_three_quarters">6dp</dimen>
+    <dimen name="margin_base">8dp</dimen>
+    <dimen name="margin_base_and_quarter">10dp</dimen>
+    <dimen name="margin_base_and_half">12dp</dimen>
+    <dimen name="margin_base_double">16dp</dimen>
+    <dimen name="margin_base_double_and_half">20dp</dimen>
+    <dimen name="margin_base_triple">24dp</dimen>
+    <dimen name="margin_base_triple_and_half">28dp</dimen>
+    <dimen name="margin_base_quadruple">32dp</dimen>
+    <dimen name="margin_base_quadruple_and_half">36dp</dimen>
+    <dimen name="margin_base_quintuple">40dp</dimen>
+    <dimen name="margin_base_hextuple">48dp</dimen>
+    <dimen name="margin_base_septuple">56dp</dimen>
+    <dimen name="margin_base_octuple">64dp</dimen>
+
+    <dimen name="padding">8dp</dimen>
+    <dimen name="padding_x2">16dp</dimen>
+    <dimen name="padding_x3">24dp</dimen>
+    <dimen name="padding_x4">32dp</dimen>
+    <dimen name="padding_x5">40dp</dimen>
+    <dimen name="padding_x6">48dp</dimen>
+    <dimen name="padding_x7">56dp</dimen>
+
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_very_large">18sp</dimen>
+    <dimen name="text_size_extra_large">20sp</dimen>
+    <dimen name="text_size_tab_layout">24sp</dimen>
+    <dimen name="text_size_tab_title">28sp</dimen>
+    <dimen name="text_size_h1">60sp</dimen>
+    <dimen name="text_size_h2">50sp</dimen>
+    <dimen name="text_size_h3">40sp</dimen>
+    <dimen name="text_size_h4">30sp</dimen>
+    <dimen name="text_size_h5">24sp</dimen>
+
+    <!-- edit list fragment -->
+    <dimen name="editList_titleHeight">64dp</dimen>
+    <dimen name="editList_buttonWidth">128dp</dimen>
+    <dimen name="editList_buttonHeight">64dp</dimen>
+
+
+</resources>

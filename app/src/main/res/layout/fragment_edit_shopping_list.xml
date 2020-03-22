@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="@dimen/padding"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editList_titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editList_titleHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@id/editList_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/edit_input_bgColor"
+            android:hint="@string/editList_titleHint" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editList_textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/editList_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editList_titleLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@id/editList_text"
+            android:layout_width="match_parent"
+            android:background="@color/edit_input_bgColor"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:hint="@string/editList_textHint" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/editList_archive"
+        android:layout_width="@dimen/editList_buttonWidth"
+        android:layout_height="@dimen/editList_buttonHeight"
+        android:layout_margin="@dimen/margin_base"
+        android:text="@string/editList_archive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guide_center" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/editList_save"
+        android:layout_width="@dimen/editList_buttonWidth"
+        android:layout_height="@dimen/editList_buttonHeight"
+        android:layout_margin="@dimen/margin_base"
+        android:text="@string/editList_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guide_center" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

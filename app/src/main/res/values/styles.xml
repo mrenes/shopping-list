@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ShoppingList" />
+
+    <style name="ShoppingList.Item">
+        <item name="android:textSize">@dimen/text_size_very_large</item>
+    </style>
+
+    <style name="ShoppingList.Item.Active.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ShoppingList.Item.Active">
+        <item name="android:textColor">@color/active_singleItem_textColor</item>
+    </style>
+
+    <style name="ShoppingList.Item.Archived">
+        <item name="android:textColor">@color/archived_singleItem_textColor</item>
+    </style>
+
+    <style name="ShoppingList.Item.Archived.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

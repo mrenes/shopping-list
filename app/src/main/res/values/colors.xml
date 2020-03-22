@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="main_navMenuTextColorActive">#FFFFFF</color>
+    <color name="main_navMenuTextColorInactive">#BBBBBB</color>
+
+    <color name="active_singleItem_textColor">#FFFFFF</color>
+    <color name="active_singleItem_backgroud">#008577</color>
+
+    <color name="archived_singleItem_textColor">#000000</color>
+    <color name="archived_singleItem_backgroud">#DDDDDD</color>
+
+    <color name="edit_input_bgColor">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+
+    <!-- main activity -->
+    <string name="main_navMenuActive">Active</string>
+    <string name="main_navMenuNew">New/Edit</string>
+    <string name="main_navMenuArchived">Archived</string>
+
+    <!-- edit list -->
+    <string name="editList_save">Save</string>
+    <string name="editList_saved">Saved</string>
+    <string name="editList_archive">Archive</string>
+    <string name="editList_archived">Archived</string>
+    <string name="editList_titleHint">Title</string>
+    <string name="editList_textHint">Text</string>
+
+    <!-- active lists -->
+    <string name="activeLists_created">Created:</string>
+
+    <!-- archived lists -->
+    <string name="archivedLists_archived">Archived:</string>
+
+</resources>

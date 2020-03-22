@@ -1,0 +1,1 @@
+D:\Workspace\PowerApp\shop2\shopping-list\buildSrc\build\classes\kotlin\main\KaptLibraries.class;D:\Workspace\PowerApp\shop2\shopping-list\buildSrc\build\classes\kotlin\main\Libs.class;D:\Workspace\PowerApp\shop2\shopping-list\buildSrc\build\classes\kotlin\main\Versions.class

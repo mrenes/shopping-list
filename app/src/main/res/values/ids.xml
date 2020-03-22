@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main activity -->
+    <item name="main_container" type="id" />
+    <item name="main_navMenu" type="id" />
+    <item name="main_navMenuActive" type="id" />
+    <item name="main_navMenuNew" type="id" />
+    <item name="main_navMenuArchived" type="id" />
+
+    <!-- active shopping lists -->
+    <item name="activeLists_recycler" type="id"/>
+    <item name="activeLists_singleItem_title" type="id"/>
+    <item name="activeLists_singleItem_dateCreated" type="id"/>
+
+    <!-- archived shopping lists -->
+    <item name="archivedLists_recycler" type="id"/>
+    <item name="archivedLists_singleItem_title" type="id"/>
+    <item name="archivedLists_singleItem_dateArchived" type="id"/>
+
+    <!-- edit shopping list -->
+    <item name="editList_id" type="id"/>
+    <item name="editList_title" type="id"/>
+    <item name="editList_text" type="id"/>
+    <item name="editList_save" type="id"/>
+    <item name="editList_archive" type="id"/>
+
+
+</resources>
